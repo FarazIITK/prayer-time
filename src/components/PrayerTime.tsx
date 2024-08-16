@@ -24,7 +24,7 @@ const PrayerTime = (props: IProps) => {
   const timeSuffix = getTimeSuffix(hourNumberValue);
 
   return (
-    <div>
+    <div className="prayer-time-card">
       <h2>{prayerName}</h2>
       <h2>{`${formattedHourStr}:${minStr} ${timeSuffix}`}</h2>
     </div>

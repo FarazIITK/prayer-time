@@ -36,7 +36,7 @@ const allPrayers = [
 const AllPrayersTime = (props: IProps) => {
   const { allPrayerTime } = props;
   return (
-    <div>
+    <div className="all-prayer-time">
       {allPrayers.map((pyrTime) => {
         return (
           <PrayerTime
