@@ -46,6 +46,7 @@ const AllPrayersTime = (props: IProps) => {
               ]
             }
             prayerName={pyrTime.name}
+            key={pyrTime.propertyName}
           />
         );
       })}
