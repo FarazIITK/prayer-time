@@ -1,5 +1,6 @@
 import './App.css';
 import AllPrayersTime from './components/AllPrayersTime';
+import PrayerTimer from './components/PrayerTimer';
 import { IPrayersTime } from './models/PrayerTime';
 
 const sampleData: IPrayersTime = {
@@ -14,6 +15,7 @@ const sampleData: IPrayersTime = {
 function App() {
   return (
     <div className="App">
+      <PrayerTimer allPrayerTime={sampleData} />
       <AllPrayersTime allPrayerTime={sampleData} />
     </div>
   );
